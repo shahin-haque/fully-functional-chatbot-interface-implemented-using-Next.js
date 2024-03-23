@@ -6,8 +6,8 @@ const NavBar = () => {
       <div className="logo">Logo</div>
       <div className="nav-links">
         <button>Home</button>
-        <button>About</button>
-        <button>Contact</button>
+        <button>Login</button>
+        <button>Sign Up</button>
       </div>
       <div className="profile-tab">Profile</div>
     </nav>
