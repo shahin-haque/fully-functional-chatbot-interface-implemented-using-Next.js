@@ -11,6 +11,14 @@ const MessageArea = ({ messages, isAITyping }) => {
 
   return (
     <div ref={messageAreaRef} className="messaging-area">
+      {messages.length <= 0 ? (
+        <p className="intro-ai">
+          <span style={{ fontSize: "35px" }}> &#10035;</span> What can i help
+          you with today?
+        </p>
+      ) : (
+        ""
+      )}
       {messages.map((message, index) => (
         <div
           key={index}
