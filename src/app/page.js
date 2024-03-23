@@ -39,7 +39,7 @@ export default function Home() {
   };
 
   return (
-    <main>
+    <main className="container">
       <MessageArea messages={messages} isAITyping={isAITyping} />
       <MessageInput sendMessage={sendMessage} />
     </main>
